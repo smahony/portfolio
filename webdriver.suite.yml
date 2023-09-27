@@ -8,7 +8,7 @@ actor: WebDriverTester
 modules:
   enabled:
     - WebDriver:
-        url: 'https://www.thetot.com'
+        url: 'HIDDEN_PER_SIGNED_NDA'
         browser: chrome # 'chrome' or 'firefox'. Add path: '' in line below for firefox
         # path: '' # comment out when running chrome
         window_size: 1500x1000
