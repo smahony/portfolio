@@ -1,0 +1,42 @@
+{
+    "return_status": "returned",
+    "rma_number": "1521224",
+    "order_number": "298039",
+    "return_creation_date": "2020-10-05T19:58:29Z",
+    "retailer_name": "thetot",
+    "package": {
+        "tracking_number": "1Z8738F49005023062",
+        "tracking_url": "https://returns.narvar.com/thetot/tracking/ups?tracking_numbers=1Z8738F49005023062&order_number=298039&bzip=&type=ret&locale=en_US",
+        "carrier": "UPS",
+        "carrier_service_method": "UPS",
+        "destination_zip": "75007",
+        "destination_city": "Carrollton",
+        "destination_country": "US",
+        "shipping_fee": "9.95"
+    },
+    "return_method": "mail",
+    "gift": false,
+    "refund_method": "credit_card",
+    "email": "elliehdonaldson@gmail.com",
+    "locale": "en_US",
+    "origin_zip": "75205",
+    "origin_city": "Dallas",
+    "origin_country": "US",
+    "estimated_refund": "48.05",
+    "restocking_fee": "0.0",
+    "label_url": "http://returns.narvar.com/returns/thetot/viewlabel?return_id=AlbwJP3wrn52D0r3",
+    "items": [
+        {
+            "sku": "840009421686",
+            "item_id": "586944",
+            "line_number": "",
+            "quantity": "1",
+            "reason": "Too Big",
+            "reason_code": "01",
+            "comment": "",
+            "unit_price": "58.00",
+            "total_item_price": "58.0",
+            "request_type": "RETURN"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+# Codeception Test Suite Configuration
+#
+# Suite for acceptance tests.
+# Perform tests in browser using the WebDriver or PhpBrowser.
+# If you need both WebDriver and PHPBrowser tests - create a separate suite.
+
+actor: WebDriverTester
+modules:
+  enabled:
+    - WebDriver:
+        url: 'https://www.thetot.com'
+        browser: chrome # 'chrome' or 'firefox'. Add path: '' in line below for firefox
+        # path: '' # comment out when running chrome
+        window_size: 1500x1000
+        port: 9515 # '9515' for chrome, '4444' for firefox
+        wait: 60
+  step_decorators: ~
+      - \Codeception\Step\Retry

@@ -1,0 +1,7 @@
+actor: ApiTester
+modules:
+  enabled:
+    - REST:
+        url: https://cvxx66jw2i.execute-api.us-west-1.amazonaws.com/
+        depends: PhpBrowser
+        part: Json
